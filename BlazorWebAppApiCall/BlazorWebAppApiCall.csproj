@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlazorAppTest2.Client\BlazorAppTest2.Client.csproj" />
+    <ProjectReference Include="..\BlazorWebAppApiCall.Client\BlazorWebAppApiCall.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
   </ItemGroup>
 

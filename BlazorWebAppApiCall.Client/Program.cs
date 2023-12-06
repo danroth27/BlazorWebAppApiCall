@@ -1,4 +1,4 @@
-using BlazorAppTest2.Client;
+using BlazorWebAppApiCall.Client;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

@@ -1,7 +1,7 @@
-using BlazorAppTest2;
-using BlazorAppTest2.Client;
-using BlazorAppTest2.Client.Pages;
-using BlazorAppTest2.Components;
+using BlazorWebAppApiCall;
+using BlazorWebAppApiCall.Client;
+using BlazorWebAppApiCall.Client.Pages;
+using BlazorWebAppApiCall.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
-builder.Services.AddSingleton<IWeatherService, BlazorAppTest2.WeatherService>();
+builder.Services.AddSingleton<IWeatherService, BlazorWebAppApiCall.WeatherService>();
 
 var app = builder.Build();
 

@@ -1,6 +1,6 @@
-﻿using BlazorAppTest2.Client;
+﻿using BlazorWebAppApiCall.Client;
 
-namespace BlazorAppTest2;
+namespace BlazorWebAppApiCall;
 
 public class WeatherService : IWeatherService
 {

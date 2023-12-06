@@ -1,7 +1,7 @@
 ﻿
 using System.Net.Http.Json;
 
-namespace BlazorAppTest2.Client;
+namespace BlazorWebAppApiCall.Client;
 
 public class WeatherService(HttpClient httpClient) : IWeatherService
 {

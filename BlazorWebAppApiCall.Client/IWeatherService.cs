@@ -1,4 +1,4 @@
-﻿namespace BlazorAppTest2.Client;
+﻿namespace BlazorWebAppApiCall.Client;
 
 public interface IWeatherService
 {
